@@ -1,0 +1,32 @@
+data = [{
+    "id": "prod_1",
+    "name": "Laptop",
+    "path": "../Images/laptop.png",
+    "price": "12000",
+    "Description": "HP 15-af114AU APU Quad Core A8 - (4 GB/1 TB HDD/Windows 10) Notebook P3C92PA#ACJ(15.6 inch, Turbo SIlver Color With Diamond & Cross Brush Pattern, 2.19 kg)"
+	
+}, {
+    "id": "prod_2",
+    "name": "Mobile",
+    "path": "../Images/mobile.png",
+    "price": "8000",
+    "Description": "SAMSUNG Galaxy J5 - 6 (New 2016 Edition) (Gold, 16 GB)"
+}, {
+    "id": "prod_3",
+    "name": "Tshirt",
+    "path": "../Images/tshirt.png",
+    "price": "800",
+    "Description": "Yellow Graphic-Print T-Shirt"
+}, {
+    "id": "prod_4",
+    "name": "TV",
+    "path": "../Images/tv.png",
+    "price": "10800",
+    "Description": "Sony BRAVIA KLV-22P422C 55 cm (22 inches) Full HD LED TV"
+}, {
+    "id": "prod_5",
+    "name": "Sandals",
+    "path": "../Images/sandels.png",
+    "price": "10800",
+    "Description": "White Crossover-Strap Flatforms"
+}]

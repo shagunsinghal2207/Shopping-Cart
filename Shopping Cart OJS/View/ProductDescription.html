@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+			<h1>Product Description</h1>
+			
+	</head>
+
+	<body onload="loadDescription(),createTProw()"  >
+	<div>
+	<img src="../Images/Checkout.jpg" onclick="loadCart()" class="Cartcontainer" style="float:right;" id="Checkout" alt="CART">  
+	</div>
+			<div style="display: inline-flex;">
+				<div id="itemdescription"class="containerdescription">
+					<div id="Image" class="simpleCart_items" > </div>
+
+					<div id="Description" class="description" >					
+					
+					</div>			
+				</div>
+				<div id="cartItems" class="simpleCart_cart" >
+					<h2>Cart</h2>					
+					<table id="cartTable" border="1" class="cart">
+					
+						<tr>
+							<th>ITEM</th>
+							<th>PRICE</th>
+							<th>QTY</th>
+							<th>TOTALPRICE</th>
+							<th></th>
+						</tr>					
+						<tr id='Totalprice'class="text">    
+							<th id='Totalpricec' colspan="5" );></th>
+						</tr>
+					</table>
+				</div>
+				
+			</div>
+			<div>
+			
+			<button type="button"name="cBtn" value="Add to Cart" class="btn" onclick="addCart()">Add to Cart</button>
+			<div>
+			
+			<link rel="stylesheet" type="text/css" href="Style.css">
+			<script type="text/javascript" src="../Model/Product.json"></script>
+			<script  type="text/javascript" src="../Controller/Storage.js"></script>
+			<script type="text/javascript" src="../Controller/DOM.js"></script>
+			<script type="text/javascript" src="../Controller/Productlist.js"></script>
+			<script type="text/javascript" src="../Controller/Productdescription.js"></script>
+			<script type="text/javascript" src="../Controller/Cart.js"></script>         
+			<script type="text/javascript">
+				var Product=null;
+				Product = new cart("brett@wojodesign.com");				
+			</script>
+			
+	</body>	
+</html>
